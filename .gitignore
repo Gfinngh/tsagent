@@ -1,0 +1,30 @@
+node_modules/
+dist/
+
+commands.txt
+runner.js
+
+# Local environment (contains real keys — never commit)
+.env
+.env.local
+.env.*.local
+
+# Runtime artifacts
+runs/
+.memory/
+.examples/
+*.log
+
+# SQLite (WAL and sidecars)
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
