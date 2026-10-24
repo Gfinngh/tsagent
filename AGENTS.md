@@ -5,7 +5,7 @@ handbook chapters, or guided walkthroughs.
 
 ## What this project is
 
-A TypeScript port of an event-sourced ReAct agent kernel. Five primitives
+A TypeScript implementation of an event-sourced ReAct agent kernel. Five primitives
 form the kernel, all under `src/agent/`:
 
 1. **Event-sourced conversation** — `schemas.ts`, `context.ts`, `event-log.ts`.
